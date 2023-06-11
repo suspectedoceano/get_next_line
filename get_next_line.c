@@ -104,7 +104,7 @@ void	create_list(t_list **list, int fd)
 
 /*
  * Mother function
- * 	~Taked a fildes
+ * 	~Took a fildes
  * 	~Gives back the next_string 
 */
 char	*get_next_line(int fd)
