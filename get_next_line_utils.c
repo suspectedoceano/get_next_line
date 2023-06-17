@@ -66,9 +66,9 @@ void	copy_str(t_list *list, char *str)
 			}
 			str[k++] = list->str_buf[i++];
 		}
-		str[k] = '\0';
 		list = list->next;
 	}
+	str[k] = '\0';
 }
 
 /*
